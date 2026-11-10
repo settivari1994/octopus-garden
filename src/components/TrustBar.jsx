@@ -1,0 +1,2 @@
+const values=["PADI 5★ DIVE RESORT","WOMEN-LED","DIVE PROFESSIONALS","SMALL GROUPS","SAFETY FIRST"];
+export default function TrustBar(){return <section aria-label="Our commitments" className="border-y border-white/10 bg-[#092D39] px-5 py-6"><div className="mx-auto flex max-w-[1400px] flex-wrap items-center justify-center gap-x-10 gap-y-4">{values.map(v=><span key={v} className="text-center text-[10px] font-bold uppercase tracking-[.19em] text-sand">{v}</span>)}</div></section>}
