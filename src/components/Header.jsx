@@ -41,7 +41,10 @@ export default function Header() {
       <div className="mx-auto flex h-[84px] max-w-[1600px] items-center gap-3 px-5 sm:h-[92px] sm:px-8 lg:px-12 xl:gap-6">
         <a href="#home" onClick={closeAll} aria-label="Octopus Garden home" className="flex min-w-0 shrink-0 items-center gap-3">
           <img src="/images/octopus-logo.png" alt="Octopus Garden Dive Centre" className="h-[62px] w-[105px] object-contain sm:h-[72px] sm:w-[120px]" />
-          <span className="hidden border-l border-white/20 pl-3 text-[9px] font-bold uppercase leading-5 tracking-[0.12em] text-sand lg:block">PADI 5 Star<br />Dive Resort</span>
+            <img
+    src="/images/padi-5-star.jpeg"
+    className="h-[32px] w-[40px] shrink-0 object-contain sm:h-[40px] sm:w-[50px]"
+  />
         </a>
         <nav aria-label="Primary navigation" className="ml-auto hidden items-center gap-1 xl:flex">
           {navigation.slice(0, 4).map(group => (
