@@ -13,6 +13,7 @@ import ExperiencePathways from "./components/ExperiencePathways";
 import WomenOfOctopus from "./components/WomenOfOctopus";
 import FinalCTA from "./components/FinalCTA";
 import MobileBookingBar from "./components/MobileBookingBar";
+import StaySection from "./components/StaySection";
 
 const experiences = [
   {
@@ -116,6 +117,7 @@ export default function App() {
       <AboutSection />
       <WhyChooseUs />
       <ExperiencePathways />
+      <StaySection />
       <WomenOfOctopus />
 
       <section id="experience" className="relative scroll-mt-24 bg-[#062633] px-5 py-24 sm:px-10 sm:py-32 lg:px-16">

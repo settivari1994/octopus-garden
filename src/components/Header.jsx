@@ -4,14 +4,9 @@ import { Search, X, Menu, ChevronDown, ArrowUpRight, MessageCircle } from "lucid
 // Some destination pages are planned; links currently lead to existing homepage sections.
 const navigation = [
   { label: "DIVE", items: [
-    ["Introduction to Diving", "#courses"], ["Discover Scuba", "#courses"],
-    ["PADI Scuba Diver", "#courses"], ["PADI Open Water", "#courses"],
-    ["Advanced Open Water", "#courses"], ["Adventure Diver", "#courses"],
-    ["Rescue Diver", "#courses"], ["Emergency First Response", "#courses"],
-    ["Divemaster", "#courses"], ["Freediving", "#courses"],
-    ["Fun Diving", "#experience"], ["Dive Sites", "#experience"],
+    ["Introduction to Diving", "#courses"],
   ] },
-  { label: "STAY", items: [["Our Cottages", "#stay"], ["The Resort", "#stay"], ["Dive + Stay Packages", "#stay"]] },
+  { label: "STAY", items: [["Our Cottages", "#stay"]] },
   { label: "EXPERIENCES", items: [["Snorkelling", "#courses"], ["Sunset Cruise", "#courses"], ["Island Hopping", "#courses"], ["Barren Island", "#experience"], ["Nature Experiences", "#experience"]] },
   { label: "OUR STORY", items: [["About Us", "#about"], ["Meet the Team", "#women"], ["Women of Octopus Garden", "#women"], ["Why Dive With Us", "#why-us"], ["Sustainability", "#about"]] },
   { label: "MORE", items: [["The Drift Room", "#stay"], ["Journal", "#gallery"], ["Reviews & Gallery", "#gallery"], ["Contact Us", "#contact"]] },
